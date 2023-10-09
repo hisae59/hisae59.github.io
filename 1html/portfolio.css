@@ -1,0 +1,118 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+
+
+header {
+    background-image: url("médias/vertbg.jpg");
+    padding: 20px;
+    color:darkolivegreen;
+    font-size: small;
+    display: flex;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+#presentation{
+    display: flex;
+    margin-left:20px;
+
+}
+
+:root{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:beige;
+    color:darkolivegreen;
+}
+section{
+    text-align: center;
+}
+#cursusscolaire{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-image: url("médias/vertbg.jpg");
+    padding: 2%;
+}
+form{
+    border-width: 2px outset;
+    border-color: darkolivegreen;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+ol{
+    margin-left: 300px;
+    margin-right: 300px ;
+}
+
+#formulaire input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+a:hover{
+    color:darkolivegreen;
+}
+
+footer a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: darkolivegreen; 
+    color: white;
+    border: 1px solid gray;
+    border-style:ridge;
+    border-radius: 20px;
+    }
+input:optional{
+    border:2px dotted darkolivegreen;
+}
+
+input:required{
+    border: 2px groove darkolivegreen;
+}
+
+input[type="checkbox"] + div{
+    height:15px;
+    width: 15px;
+    background-color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 10px;
+}
+#check{
+    display: inline-flex;
+}
+input[type="checkbox"]{
+    width:0px;
+    height:0;
+}
+
+input[type="checkbox"]:checked+ div{
+    background-color: darkolivegreen;
+
+}
+#retour:target{
+  border: 5px double darkolivegreen;  
+}
+fieldset{
+    margin-left:15em;
+    margin-right:15em;
+}
+
+@media screen and (max-width:470px){
+    ol{
+        margin-left: 8.5rem;
+        margin-right: 13rem;
+    }
+    ul{
+        margin-left:3rem;
+        margin-right:7rem;
+    }
+    form, fieldset{
+        margin-left: 5rem;
+        margin-right: 7rem;
+    }
+    
+}

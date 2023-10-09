@@ -1,0 +1,58 @@
+center>h1{
+    background-image: url("médias/vertbg.jpg");
+    padding: 5%;
+}
+
+body{
+    background-color: beige;
+    font-family: Math;
+    color:darkolivegreen;
+    overflow-x:hidden;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+#ontrack, audio{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right:120px;
+    border:5px ridge darkolivegreen;
+    border-radius: 10PX;
+    padding:0px ;
+}
+div.border{
+    justify-content: center;
+    display: flex;
+}
+
+div{
+    border:None;
+}
+
+a:hover{
+    color:darkolivegreen;
+}
+#gtm{
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+}
+p::before{
+    content:"Présentation:";
+    color:beige;
+    padding:5px;
+    background-color: darkolivegreen;
+    border-radius: 20px;
+}
+footer a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: darkolivegreen; 
+    color: white;
+    border: 1px solid gray;
+    border-style:ridge;
+    border-radius: 20px;
+    }

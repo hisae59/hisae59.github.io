@@ -1,0 +1,90 @@
+header>h1{
+    background-image: url("médias/vertbg.jpg");
+    padding:5%;
+    border:5px double rgb(56, 70, 31) ;
+    border-radius: 5px;
+}
+
+body{
+    background-color: beige;
+    color:darkolivegreen;
+    font-family: Math;
+}
+
+img{
+    border: 2px ridge rgb(56, 70, 31);
+}
+
+a:hover{
+    color:darkolivegreen;
+}
+nav li{
+    list-style-type:none ;
+    padding:20px;
+    word-spacing: 1%;
+    display:inline-flex;
+    float: right;
+}
+
+header a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: darkolivegreen; 
+    color: white;
+    border: 1px solid gray;
+    border-style:ridge;
+    border-radius: 20px;
+    }
+
+#retour:target{
+    border: 5px double darkolivegreen;
+    }
+    
+#retour{
+    border-radius: 20px;
+    border-color: darkolivegreen;
+}
+footer a{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: darkolivegreen; 
+    color: white;
+    border: 1px solid gray;
+    border-style:ridge;
+    border-radius: 20px;
+    display-flex:center;
+    justify-content:center;
+    }
+
+footer{
+    background-image: url("médias/vertbg.jpg");
+    padding:5em;
+}
+
+div{
+    display:flex;
+    flex-direction: column;
+    margin: 5rem;
+    align-items:center;
+}
+div img{
+    width:580px;
+}
+
+div #burger{
+    margin-bottom:3rem;
+}
+
+
+
+
+
+@media screen and (max-width:470px){
+    #images{
+        flex-direction: column;
+        align-items:center;
+    }
+    div img{
+        width:380px;
+    }
+}

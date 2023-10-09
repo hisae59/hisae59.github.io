@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Portfolio Lucie Potier</title>
+        <link href="portfolio.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header id="retour">
+            <img src="médias/pfpvert.png" alt="Photo de profil anonyme" area="Photo de profil anonyme" width="150px"/>
+            <div id="presentation">
+                <aside>
+                        <h1>Lucie Potier</h1>
+                <h2>élève de première année à Supinfo Lille</h2>
+                <h3>potier.lucie59@gmail.com</h3>
+                <h3>06.09.33.14.09</h3>
+                </aside>
+            </div>
+        </header>
+                <section id="apropos">
+                    <h1>A propos</h1>
+                    <h5>Bachelière depuis juin 2023</h5>
+                </section>
+                <section>
+                    <h1>CV</h1>
+                    <div id="cursusscolaire">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Cursus scolaire</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2007-2014</td>
+                                    <td> Ecole Marcel Dhot de Maulde</td>
+                                </tr>
+                                <tr>
+                                    <td>2015-2023</td>
+                                    <td>Collège et lycée notre dame des anges</td>
+                                </tr>
+                                <tr>
+                                    <td>2023-</td>
+                                    <td>supinfo Lille</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h3>Expériences professionelles</h3>
+                    <nav>
+                        <ul area-label="expériences professionelles">
+                            <li>Travail en temps que serveuse dans un restaurant à Plombières-les-bains</li>
+                            <li>stages de 3e et 2nde</li>
+                            <li>Travail en salle des machines à sous du Pasino de Saint-Amand-les-Eaux</li>
+                        </ul>
+                    </nav>
+                    <h3>Mes compétences</h3>
+                    <nav>
+                        <ol reversed area-label="mes compétences">
+                            <li>Anglais niveau C1</li>
+                            <li>Espagnol</li>
+                            <li>A l'écoute</li>
+                            <li>Bienveillance</li>
+                            <li>Persévérence</li>
+                        </ol>
+                    </nav>
+                </section>
+        <section id="centrer">
+            <form action="https://api.web3forms.com/submit" method="POST" id="formulaire" autocomplete="on">
+                <input type="hidden" name="access_key" value="b9162a47-ebbd-443b-8225-a293659bf592">
+                <div>
+                    <label name="name" for="name">Nom: </label>
+                    <input type="text" name="name" id="name" autocomplete="name" required/>
+                </div>
+                <div>
+                    <label name="mail" for="mail">Mail:</label>
+                    <input type="mail" name="mail" id="mail" autocomplete="mail" required/>
+                </div>
+                <div>
+                    <label name="tel" for="tel">Téléphone:</label>
+                    <input type="tel" name="tel" id="tel" autocomplete="tel" required>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Choisissez votre tranche d'age</legend>
+
+                        <input type="radio" id="age0-18" name="age" value="enfant">
+                        <label for="age0-18">0-18</label>
+
+                        <input type="radio" id="age19-30" name="age" value="jeuneadulte">
+                        <label for="age19-30">19-30</label>
+
+                        <input type="radio" id="age31-45" name="age" value="adulte">
+                        <label for="age31-45">31-45</label>
+
+                        <input type="radio" id="ageautre" name="age" value="autre">
+                        <label for="ageautre">autre</label>
+
+                    </fieldset>
+                </div>
+                <div id="check">
+                    <label name="recontact" for="recontact">Acceptez-vous de vous faire recontacter par notre agence?</label>
+                    <input type="checkbox" name="recontact" id="recontact" />
+                    <div></div>
+                </div>
+                <div>
+                    <input type="submit" value="Envoyer" target="reponse" required/>
+                </div>
+                <div>
+                    <label name="commentaire" for="commentaire">Comentaire: </label>
+                    <input type="commentaire" name="commentaire" id="commentaire" optional/>
+                </div>
+            </form>
+            <footer>
+                <section>
+                    <h2>Contact</h2>
+                    <h5>potier.lucie59@gmail.com</h5>
+
+                    <nav class="menu">
+                        <a href="blog.html">Blog</a>
+                        <a href="#retour">Retour en haut</a>
+                    </nav>
+                </section>
+            </footer>
+        </section>
+    </body>
+</html>
