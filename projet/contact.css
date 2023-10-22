@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Oswald&family=Roboto:wght@300&display=swap');
+
+
+header{
+    background-color: #748cab;
+    padding: 1.5em;
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Montserrat;
+  color: #f0ebd8;
+}
+header div{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+
+header h3{
+    flex:wrap;
+    justify-content:right;
+    margin-left:60em;
+}
+header #nav{
+    padding: 10px 30px;
+    background-color: #f0ebd8;
+    border: 1px solid #748cab;
+    border-style:ridge;
+    border-radius: 20px;
+    font-family: Montserrat;
+    border-spacing: 1;
+    display:inline-flex;
+    margin-right: 2em;
+
+}
+
+header a{
+    text-decoration: none;
+    color:Black;
+    
+}
+header a img:hover{
+    transform: scale(1.1);
+}
+header a img{
+    transition: transform 0.4s ease;
+}
+
+header li:hover{
+    color:#748cab;
+    transform: scale(1.1);
+}
+header a:hover{
+    color:#748cab;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#f0ebd8;
+}
+
+footer{
+    background-color:#748cab;
+    padding:3em;
+    text-align:center;
+    margin-top:3em;
+}
+
+footer p{
+    font-family: Montserrat;
+    color:#f0ebd8;
+}
+
+#formulaire{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    font-family: Montserrat;
+    color:#3e5c76;
+    
+}
+#formulaire h2, div{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+fieldset{
+    margin-left:30em;
+    margin-right:30em;
+    border-color: #748cab;
+}

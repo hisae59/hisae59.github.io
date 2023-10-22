@@ -1,0 +1,6 @@
+dans la div: metytre une background img et faire une flexbox pour mettre les png des albums dedans avec le lien vers la page rap et vers lesproduits en question, faire le hover 
+
+key frames
+
+responsive:
+overflow-x: hidden;
