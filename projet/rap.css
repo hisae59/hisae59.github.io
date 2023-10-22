@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat&family=Oswald&family=Roboto:wght@300&display=swap');
+
+
+header{
+    background-color: #748cab;
+    padding: 1.5em;
+    display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Montserrat;
+  color: #f0ebd8;
+}
+header div{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    
+}
+
+header h3{
+    flex:wrap;
+    justify-content:right;
+    margin-left:60em;
+}
+header #nav{
+    padding: 10px 30px;
+    background-color: #f0ebd8;
+    border: 1px solid #748cab;
+    border-style:ridge;
+    border-radius: 20px;
+    font-family: Montserrat;
+    border-spacing: 1;
+    display:inline-flex;
+    transition: transform 0.4s ease;
+    justify-content: center;
+}
+
+header a{
+    text-decoration: none;
+    color:Black;
+    
+    
+}
+header a img:hover{
+    transform: scale(1.2);
+}
+header a img{
+    transition: transform 0.4s ease;
+}
+
+header li:hover{
+    color:#748cab;
+    transform: scale(1.1);
+}
+header a:hover{
+    color:#748cab;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color:#f0ebd8;
+}
+h2{
+    font-family: Montserrat;
+    color:#3e5c76;
+    display:flex;
+    justify-content:center;
+}
+
+#prod{
+    background-color: #1d2d44;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:2em;
+    padding:2em;
+    transition: transform 0.4s ease;
+}
+
+#prod.inpage{
+    width:50%;
+}
+
+
+#prod h2{
+    color: #f0ebd8;
+}
+
+h3{
+    font-family: Montserrat;
+    color:#f0ebd8;
+    font-size: 100%;
+    padding-bottom: 1em;
+}
+
+#prod:hover{
+    transform:scale(1.1);
+    background-color: #3e5c76;
+}
+body section{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    padding:2em;
+}
+h1{
+    font-family: Montserrat;
+    color:#1d2d44;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 2em;
+}
+#prod img{
+    width: 100%;
+}
+footer{
+    background-color:#748cab;
+    padding:3em;
+    text-align:center;
+    margin-top:3em;
+}
+
+footer p{
+    font-family: Montserrat;
+    color:#f0ebd8;
+}
